@@ -4,8 +4,4 @@ from django.http import HttpResponse
 
 
 def home(request):
-    return HttpResponse("Helloooo World")
-
-
-def resume(request):
     return render(request, 'resume_app/index.html')
